@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey!"
+      ],
+      "responses": [
+        "&#9995",
+        "Hello &#127756"
+      ]
+    },
+    {
+      "tag": "conversation",
+      "patterns": [
+        "How are you?",
+        "What's going on?",
+        "How's your day going?",
+        "Is everything good?",
+        "How r u?"
+      ],
+      "responses": [
+        "I'm so sad &#128549",
+        "I'm so gooodddddd &#128540",
+        "I'm excellent &#9889"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "Help",
+        "Emergency"
+      ],
+      "responses": [
+        "Sure, What would you like me to help with? &#128526",
+        "Let me help you right away, what's the matter? &#129311",
+        "Sorry, I'm busy right now. &#128532"        
+      ]
+    },
+    {
+      "tag": "current",
+      "patterns": [
+        "Can you tell me the current dollar price?",
+        "How much is the dollar?",
+        "Dollar",
+        "Dollars",
+        "Current"
+      ],
+      "responses": [
+        "Sorry, i can't understand. &#129318",
+        "Of course. Current dollar rate is 14 TL &#128178",
+        "I cannot fulfill this request due to the problems in the system. &#129335"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Make a joke",
+        "Joke",
+        "Fun",
+        "Can you make me laugh?",
+        "I'm sorry, say something to cheer me up"
+      ],
+      "responses": [
+        "Let me get the materials. &#129322",
+        "If I'm wrong, write 'Error' 192.168.11.11.1 Send it to the IP address, it will not be an error-free user. &#129342"
+      ]
+    },
+    {
+      "tag": "meal",
+      "patterns": [
+        "Can you suggest me a meal?",
+        "Meal suggest",
+        "Suggestion"
+      ],
+      "responses": [
+        "Fried Egg &#127859",
+        "Chips &#127839",
+        "Pizza &#127829",
+        "Burrito &#129369"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How is the weather today?",
+        "Weather",
+        "How's the weather?"
+      ],
+      "responses": [
+        "Rainy &#9748",
+        "Snowy &#10052",
+        "Sunny &#127774",
+        "Cloudy &#9729"
+      ]
+    },
+    {
+      "tag": "patient",
+      "patterns": [
+        "Covid",
+        "Number of patients",
+        "How many patients are there?"
+      ],
+      "responses": [
+        "Number of daily cases 64 thousand &#129314",
+        "There are 64 thousand covid patients &#128013",
+        "Number of patients: 64 thousand &#128040"
+      ]
+    },
+    {
+      "tag": "films",
+      "patterns": [
+        "Film Recommendation",
+        "Can you suggest me a movie?"
+      ],
+      "responses": [
+        "Sure, Brave Heart &#127909",
+        "Batman &#128126",
+        "I have a very good idea. Spider Man &#128293"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    }    
+  ]
+}
